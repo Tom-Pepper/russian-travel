@@ -1,7 +1,8 @@
 .cover__background {
   background-image: url('../../../images/cover-background.png');
   background-size: cover;
-  height: 740px;
+  width: 100%;
+  /*height: 740px*/;
   display: flex;
   justify-content: center;
   align-items: center;
