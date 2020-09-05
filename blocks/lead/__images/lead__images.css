@@ -1,0 +1,13 @@
+.lead__image {
+  position: relative;
+  max-width: 984px;
+  max-height: 615px;
+  margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .lead__image {
+    width: 320px;
+    height: 200px;
+  } 
+}

@@ -1,0 +1,24 @@
+.cover__background {
+  background-image: url('../../../images/cover-background.png');
+  background-size: cover;
+  height: 740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+  .cover__background {
+    width: 320px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .cover__background {
+    width: 768px;
+    height: 480px;
+  }  
+}

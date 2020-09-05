@@ -1,0 +1,20 @@
+.place__website-link {
+  text-decoration: none;
+  max-width: 456px;
+  max-height: 22px;
+  font-size: 18px;
+  line-height: 1.22;
+  border-bottom: 1px white solid;
+  color: #ffffff;
+}
+
+.place__website-link:hover {
+  opacity: 0.55;
+  transition: opacity 0.1s ease-in-out 0.1s;    
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .place__website-link {
+    max-width: 352px;
+  }
+}
