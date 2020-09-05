@@ -7,20 +7,20 @@
 
 @media screen and (max-width: 425px) {
   .lead__image-trace {
-    width: 305px;
-    height: 86px;
-    position: absolute;
+    /*width: 305px;
+    height: 86px;*/
+    /*position: absolute;*/
     top: 30px;
-    left: 8px;
+    left: 0px;
   } 
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .lead__image-trace {
-    width: 731px;
-    height: 205px;
-    position: absolute;
+    /*width: 731px;
+    height: 205px;*/
+    /*position: absolute;*/
     top: 70px;
-    left: 18px;
+    left: 0px;
   }   
 }
