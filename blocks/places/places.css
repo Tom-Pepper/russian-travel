@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 425px) {
   .places {
-    width: 320px;
+    /*width: 320px;*/
     min-height: 4786px;
     margin-top: 64px;
     grid-row-gap: 48px;
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .places {
-    width: 720px;
+    /*width: 720px;*/
     min-height: 2810px;
     margin: 0;
     margin: 88px 24px 0 24px;

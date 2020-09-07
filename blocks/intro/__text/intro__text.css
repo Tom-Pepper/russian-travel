@@ -1,6 +1,6 @@
 .intro__text {
   margin: 0;
-  width: 100%;
+  max-width: 100%;
   /*min-height: 209px;*/
   font-weight: normal;
   font-style: normal;
@@ -8,11 +8,4 @@
   line-height: 1.63;
   color: #ffffff;
   margin-bottom: 32px;
-}
-
-@media screen and (max-width: 425px) {
-  .intro__text {
-    /*width: 288px;*/
-    /*min-height: 522px;*/
-  }
 }
