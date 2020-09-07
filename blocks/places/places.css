@@ -10,15 +10,15 @@
 
 @media screen and (max-width: 425px) {
   .places {
-    min-height: 4786px;
+    /*min-height: 4786px;*/
     margin-top: 64px;
     grid-row-gap: 48px;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .places {
-    min-height: 2810px;
+    /*min-height: 2810px;*/
     margin: 0;
     margin: 88px 24px 0 24px;
     grid-row-gap: 72px;
