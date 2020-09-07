@@ -1,0 +1,8 @@
+.place__image-link {
+  text-decoration: none;  
+}
+
+.place__image-link:hover {
+  opacity: 0.55;
+  transition: opacity 0.1s ease-in-out 0.1s;    
+}

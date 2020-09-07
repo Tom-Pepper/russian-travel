@@ -40,6 +40,7 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__paragraph-wrapper/place__paragraph-wrapper.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__image-link/place__image-link.css);
 
 /* cover */
 @import url(../blocks/cover/cover.css);
