@@ -1,14 +1,30 @@
 .footer__copyright {
+  margin: 0;	
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
+  width: 40%;
+  text-align: end;
 }
 
 @media screen and (max-width: 425px) {
   .footer__copyright {
-  	margin: 0;
-  	width: 110%;
-  	margin-left: 16px;
+    width: 100%;
+    align-self: flex-start;
+    text-align: start;
   }  	
 }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .footer__copyright {
+    text-align: left;
+  }  
+}
+
+/*@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .footer__copyright {
+    width: 40%;
+    text-align: end;
+  }
+}*/

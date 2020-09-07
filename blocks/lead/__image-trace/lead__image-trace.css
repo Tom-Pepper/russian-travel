@@ -3,6 +3,7 @@
   position: absolute;
   top: 90px;
   left: 24px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 425px) {
@@ -12,7 +13,7 @@
   } 
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .lead__image-trace {
     top: 70px;
     left: 3%;

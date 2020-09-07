@@ -5,18 +5,25 @@
 
 @media screen and (max-width: 425px) {
   .place__image {
-  	width: 320px;
-  	height: 320px;
-  	margin: 0;
-  	padding: 0;
-  }	
+    width: 320px;
+    height: 320px;
+    margin: 0;
+    padding: 0;
+  } 
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .place__image {
-  	width: 340px;
-  	height: 340px;
-  	margin: 0;
-  	padding: 0;
-  }	
+    width: 340px;
+    height: 340px;
+    margin: 0;
+    padding: 0;
+  } 
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+    margin-right: 32px; 
+  }
 }
