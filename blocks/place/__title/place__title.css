@@ -1,6 +1,6 @@
 .place__title {
   width: 460px;
-  max-height: 152px;
+  font-family: 'Inter-Black';
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
@@ -14,7 +14,6 @@
   .place__title {
     margin: 0;
     width: 90%;
-    height: 35px;
     font-size: 32px;
     line-height: 1.09;
     padding-left: 16px;

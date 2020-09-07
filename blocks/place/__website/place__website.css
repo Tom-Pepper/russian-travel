@@ -12,6 +12,12 @@
   } 
 }
 
+@media screen and (max-width: 581px) {
+  .place__website {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .place__website {
     max-width: 352px;
