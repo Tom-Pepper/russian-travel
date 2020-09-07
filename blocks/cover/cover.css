@@ -1,8 +1,6 @@
 .cover {
   width: 100%;
   margin-top: 92px;
-  /*margin-left: 48px;
-  margin-right: 48px;*/
   position: relative;
 }
 
@@ -13,7 +11,6 @@
   bottom: 0;
   right: 0;
   left: 0;
-  
   background-color: #2A2C2F;
   opacity: 0.3;
   transition: opacity 0.6s; 
@@ -27,13 +24,8 @@
   .cover {
     margin: 0;
     margin-top: 64px;
-    /*width: 320px;*/
     height: 200px;
   }
-  /*.cover::before {
-    width: 320px;
-    height: 200px;
-  }*/
 
   .cover:hover::before {
     display: none;
@@ -44,13 +36,8 @@
   .cover {
     margin: 0;
     margin-top: 88px;
-    /*width: 768px;*/
     height: 480px;
   }
-  /*.cover::before {
-    width: 768px;
-    height: 480px;
-  }*/
 
   .cover:hover::before {
     display: none;

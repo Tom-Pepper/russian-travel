@@ -17,9 +17,8 @@
   	padding: 0;
   	padding-bottom: 24px;
 
-  	width: calc(100% - 16px)/*186px*/;
-  	/*min-height: 310px;
-*/  flex-direction: column;
+  	width: calc(100% - 16px);
+    flex-direction: column;
   }  	
 }
 
@@ -31,8 +30,5 @@
       padding: 0;
       padding-bottom: 24px;
       width: calc(100% - 24px);
-/*
-      width: 720px;
-      min-height: 18px;*/
     }  
 }
