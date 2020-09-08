@@ -2,18 +2,6 @@
   margin: 0;
   align-self: flex-end;
 }
-/*
-@media screen and (max-width: 1024px) {
-  .place__website {
-  	width: 456px;
-  }	
-}
-
-@media screen and (max-width: 936px) {
-  .place__website {
-    max-width: 352px;
-  } 
-}*/
 
 @media screen and (max-width: 425px) {
   .place__website {
