@@ -1,6 +1,5 @@
 .cover__title {
-  max-width: 550px;
-  font-family: 'Inter-Black';
+  max-width: 560px;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
@@ -11,6 +10,19 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+  .cover__title {
+    width: 560px;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .cover__title {
+    width: 100%;
+    font-size: 40px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .cover__title {
     width: 75%;
@@ -18,23 +30,4 @@
     line-height: 1.09;
     margin: 33px 16px 16px 16px;
   }  
-}
-
-@media screen and (min-width: 657px) and (max-width: 768px) {
-  .cover__title {
-    width: 560px;
-  }
-}
-
-@media screen and (min-width: 426px) and (max-width: 656px) {
-  .cover__title {
-    width: 100%;
-    font-size: 40px;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1280px) {
-  .cover__title {
-    width: 560px;
-  }
 }

@@ -1,6 +1,5 @@
 .place__title {
   width: 460px;
-  font-family: 'Inter-Black';
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
@@ -10,35 +9,27 @@
   margin-right: 40px;
 }
 
-@media screen and (max-width: 425px) {
-  .place__title {
-    margin: 0;
-    width: 90%;
-    font-size: 32px;
-    line-height: 1.09;
-    padding-left: 16px;
-    margin-bottom: 32px;
-  } 
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  .place:first-child .place__title {
-    width: 40%;
-    margin-right: calc(28px * 3);
-  }
-
-  .place__title {
-    margin: 0;
-    width: 340px;
-    font-size: 42px;
-    line-height: 1.1;
-    margin-bottom: 48px;
-    margin-right: 28px;
-  }  
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place__title {
     width: 440px;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .place__title {
+    max-width: 330px;
+    font-size: 42px;
+    line-height: 1.1;
+    margin-right: 38px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__title {
+    width: 288px;
+    line-height: 1.09;
+    font-size: 32px;
+    margin: 0 16px 32px 16px; 
   }
 }

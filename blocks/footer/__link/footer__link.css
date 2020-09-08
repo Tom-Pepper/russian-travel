@@ -8,15 +8,22 @@
   font-size: 16px;
   line-height: 1.12;
   color: #ffffff;
+  transition: opacity 0.1s ease-in-out 0.1s;
 }
 
 .footer__link:hover {
-  opacity: 0.55;
-  transition: opacity 0.1s ease-in-out 0.1s;
+  opacity: 0.8;
 }
 
 .footer__link:last-child {
   margin-right: 0;    
+}
+
+@media screen and (max-width: 768px) {
+  .footer__link {
+    font-size: 16px;
+    line-height: 1.12;
+  }  
 }
 
 @media screen and (max-width: 425px) {
@@ -30,11 +37,4 @@
   .footer__link:last-child {
     margin-bottom: 48px;    
   }
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  .footer__link {
-    font-size: 16px;
-    line-height: 1.12;
-  }  
 }

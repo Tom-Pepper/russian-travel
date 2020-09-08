@@ -6,15 +6,3 @@
   align-items: flex-start;
   margin: 0;
 }
-
-@media screen and (max-width: 425px) {
-  .place {
-    width: 320px;
-  } 
-}
-
-@media screen and (width: 768px) {
-  .place {
-    width: 720px;
-  }
-}

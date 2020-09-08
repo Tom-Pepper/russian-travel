@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (width: 1024px) {
   .lead__card {
   	margin-right: 48px;
   	margin-left: 48px;

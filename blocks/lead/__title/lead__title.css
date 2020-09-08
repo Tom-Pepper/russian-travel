@@ -1,6 +1,5 @@
 .lead__title {
   max-width: 720px;
-  font-family: 'Inter-Black';
   font-weight: 900;
   font-size: 96px;
   line-height: 1.04;
@@ -10,6 +9,18 @@
   padding-top: 48px;
 }
 
+@media screen and (max-width: 692px) {
+  .lead__title {
+    font-size: 76px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lead__title {
+    font-size: 56px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .lead__title {
   	margin: 0 16px 16px 16px;
@@ -17,40 +28,4 @@
     font-size: 40px;
     line-height: 1.1;
   }
-}
-
-@media screen and (min-width: 700px) and (max-width: 768px) {
-  .lead__title {
-    margin: 0 24px;
-    width: calc(100% - 2 * 24px);
-  }
-}
-
-@media screen and (min-width: 543px) and (max-width: 680px) {
-  .lead__title {
-    font-size: 76px;
-  }
-}
-
-@media screen and (min-width: 412px) and (max-width: 543px) {
-  .lead__title {
-    font-size: 46px;
-  }
-}
-
-@media screen /*and (min-width: 412px)*/ and (max-width: 412px) {
-  .lead__title {
-    font-size: 36px;
-  }
-}
-
-@media screen and (width: 1024px) {
-  .lead__title {
-    width: 75%;
-  }
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
-  .lead__title {
-    width: 720px;
 }
