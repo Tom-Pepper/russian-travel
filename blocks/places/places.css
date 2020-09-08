@@ -6,7 +6,13 @@
   justify-content: center;
   align-items: center;
   margin: 0;
-  margin-top: 92px;    
+  margin: 92px 148px 0 148px;    
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    margin: 92px 48px 0 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -19,5 +25,6 @@
 @media screen and (max-width: 425px) {
   .places {
     margin: 64px 16px 0 16px;
+    grid-row-gap: 48px;
   }
 }
