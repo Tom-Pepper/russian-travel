@@ -5,37 +5,21 @@
   color: #ffffff;
   margin: 0;
   margin-bottom: 24px;
-  margin-left: 40px;    
+  /*margin-left: 40px; */   
 }
 
 .place__paragraph:last-child {
   margin-bottom: 0;    
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
-    width: 456px;
-    margin-left: 32px;
-  }
-}
-
-@media screen and (max-width: 936px) {
-  .place__paragraph {
-    width: 352px;
     font-size: 16px;
-    margin-left: 28px;
-  }
-}
-
-@media screen and (max-width: 766px) {
-  .place__paragraph {
-    margin: 0 28px 20px 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .place__paragraph {
-    width: 288px;
     margin-left: 16px;
     margin-right: 16px;
   }
