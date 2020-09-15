@@ -3,6 +3,7 @@
 
   background-image: url('../../../images/cover-background.png');
   background-size: cover;
+  background-position: center;
   width: 100%;
   min-height: 740px;
   display: flex;
